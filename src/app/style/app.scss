@@ -19,12 +19,12 @@ html,body{
   display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: auto;
-    grid-template-rows: 5vh 30vh 60vh 5vh;
+    grid-template-rows: 10vh 30vh 60vh;
      grid-template-areas: 
     "a a a a a a"
      ". . b . . ."
-       " . . c c . . "
-           " d d d d d d "
+       " . . c c c . "
+       ". . d . . ."
     
    
   }
@@ -39,11 +39,7 @@ html,body{
     
   }
 
-  .chart{
-display: flex;
-      grid-area:c;
-  }
-   
+ 
   
   .footer{
   
@@ -53,3 +49,10 @@ display: flex;
   }
   
 
+.admin{
+
+          grid-area:d;
+
+       
+  
+}

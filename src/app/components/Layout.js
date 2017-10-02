@@ -5,6 +5,7 @@
 import React from 'react'
 
 import GetGift from './GetGift'
+import Admin from './Admin'
 
 // other
 
@@ -13,13 +14,29 @@ class Layout extends React.Component {
   constructor(props){
 super(props)
     this.state = {
-        giftData: {}
+        giftData: "",
+        rend:false
        
       };
 
   }
 
+  componentDidMount(){
+    fetch('https://snappyser.herokuapp.com/api', {                    
+                        }).then(res => res.json())
+                        .then((data)=>{
+                           
+                            this.setState({
+                                giftData:data
+                               
+    
+                            })
+                            console.log(data)
+                          
+                        })
   
+                    }
+
 
   sendData=(data)=>{
     fetch('http://localhost:8080/api', {
@@ -30,14 +47,6 @@ super(props)
         }, 
         body:data
 
-    }).then(res => res.json())
-    .then((data)=>{
-        this.setState({
-            giftData:data
-
-        })
-
-      
     })
 }
 
@@ -45,13 +54,15 @@ super(props)
     render() {
         
       
-
-
+const {giftData, rend} = this.state
+console.log(giftData)
         return (
             <div className="layout">
             
     
      <GetGift sendData={this.sendData}/>
+     <Admin giftData={giftData}/>
+ 
    
           </div>  
           
