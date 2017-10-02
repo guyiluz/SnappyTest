@@ -22499,7 +22499,7 @@
 	exports.i(__webpack_require__(/*! -!../../../~/css-loader!../../../~/semantic-ui-css/semantic.min.css */ 188), "");
 	
 	// module
-	exports.push([module.id, ".nav {\n  background: red;\n  grid-area: a; }\n\n.search {\n  grid-area: b;\n  margin-top: 100px; }\n  .search .ui.form .fields {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: row;\n    flex-direction: column;\n    margin: 0 -.5em 1em; }\n\n.rc-slider {\n  position: relative;\n  height: 14px;\n  padding: 5px 0;\n  width: 100%;\n  border-radius: 6px;\n  -ms-touch-action: none;\n  touch-action: none;\n  box-sizing: border-box;\n  -webkit-tap-highlight-color: transparent; }\n\n.rc-slider * {\n  box-sizing: border-box;\n  -webkit-tap-highlight-color: transparent; }\n\n.rc-slider-rail {\n  position: absolute;\n  width: 100%;\n  background-color: #e9e9e9;\n  height: 4px;\n  border-radius: 6px; }\n\n.rc-slider-track {\n  position: absolute;\n  left: 0;\n  height: 4px;\n  border-radius: 6px;\n  background-color: #abe2fb; }\n\n.rc-slider-handle {\n  position: absolute;\n  margin-left: -7px;\n  margin-top: -5px;\n  width: 14px;\n  height: 14px;\n  cursor: pointer;\n  cursor: -webkit-grab;\n  cursor: grab;\n  border-radius: 50%;\n  border: solid 2px #96dbfa;\n  background-color: #fff;\n  -ms-touch-action: pan-x;\n  touch-action: pan-x; }\n\n.rc-slider-handle:hover {\n  border-color: #57c5f7; }\n\n.rc-slider-handle:active {\n  border-color: #57c5f7;\n  box-shadow: 0 0 5px #57c5f7;\n  cursor: -webkit-grabbing;\n  cursor: grabbing; }\n\n.rc-slider-handle:focus {\n  border-color: #57c5f7;\n  box-shadow: 0 0 0 5px #96dbfa;\n  outline: none; }\n\n.rc-slider-mark {\n  position: absolute;\n  top: 18px;\n  left: 0;\n  width: 100%;\n  font-size: 12px; }\n\n.rc-slider-mark-text {\n  position: absolute;\n  display: inline-block;\n  vertical-align: middle;\n  text-align: center;\n  cursor: pointer;\n  color: #999; }\n\n.rc-slider-mark-text-active {\n  color: #666; }\n\n.rc-slider-step {\n  position: absolute;\n  width: 100%;\n  height: 4px;\n  background: transparent; }\n\n.rc-slider-dot {\n  position: absolute;\n  bottom: -2px;\n  margin-left: -4px;\n  width: 8px;\n  height: 8px;\n  border: 2px solid #e9e9e9;\n  background-color: #fff;\n  cursor: pointer;\n  border-radius: 50%;\n  vertical-align: middle; }\n\n.rc-slider-dot:first-child {\n  margin-left: -4px; }\n\n.rc-slider-dot:last-child {\n  margin-left: -4px; }\n\n.rc-slider-dot-active {\n  border-color: #96dbfa; }\n\n.rc-slider-disabled {\n  background-color: #e9e9e9; }\n\n.rc-slider-disabled .rc-slider-track {\n  background-color: #ccc; }\n\n.rc-slider-disabled .rc-slider-handle,\n.rc-slider-disabled .rc-slider-dot {\n  border-color: #ccc;\n  box-shadow: none;\n  background-color: #fff;\n  cursor: not-allowed; }\n\n.rc-slider-disabled .rc-slider-mark-text,\n.rc-slider-disabled .rc-slider-dot {\n  cursor: not-allowed !important; }\n\n.rc-slider-vertical {\n  width: 14px;\n  height: 100%;\n  padding: 0 5px; }\n\n.rc-slider-vertical .rc-slider-rail {\n  height: 100%;\n  width: 4px; }\n\n.rc-slider-vertical .rc-slider-track {\n  left: 5px;\n  bottom: 0;\n  width: 4px; }\n\n.rc-slider-vertical .rc-slider-handle {\n  margin-left: -5px;\n  margin-bottom: -7px;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y; }\n\n.rc-slider-vertical .rc-slider-mark {\n  top: 0;\n  left: 18px;\n  height: 100%; }\n\n.rc-slider-vertical .rc-slider-step {\n  height: 100%;\n  width: 4px; }\n\n.rc-slider-vertical .rc-slider-dot {\n  left: 2px;\n  margin-bottom: -4px; }\n\n.rc-slider-vertical .rc-slider-dot:first-child {\n  margin-bottom: -4px; }\n\n.rc-slider-vertical .rc-slider-dot:last-child {\n  margin-bottom: -4px; }\n\n.rc-slider-tooltip-zoom-down-enter,\n.rc-slider-tooltip-zoom-down-appear {\n  -webkit-animation-duration: .3s;\n  animation-duration: .3s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n  display: block !important;\n  -webkit-animation-play-state: paused;\n  animation-play-state: paused; }\n\n.rc-slider-tooltip-zoom-down-leave {\n  -webkit-animation-duration: .3s;\n  animation-duration: .3s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n  display: block !important;\n  -webkit-animation-play-state: paused;\n  animation-play-state: paused; }\n\n.rc-slider-tooltip-zoom-down-enter.rc-slider-tooltip-zoom-down-enter-active,\n.rc-slider-tooltip-zoom-down-appear.rc-slider-tooltip-zoom-down-appear-active {\n  -webkit-animation-name: rcSliderTooltipZoomDownIn;\n  animation-name: rcSliderTooltipZoomDownIn;\n  -webkit-animation-play-state: running;\n  animation-play-state: running; }\n\n.rc-slider-tooltip-zoom-down-leave.rc-slider-tooltip-zoom-down-leave-active {\n  -webkit-animation-name: rcSliderTooltipZoomDownOut;\n  animation-name: rcSliderTooltipZoomDownOut;\n  -webkit-animation-play-state: running;\n  animation-play-state: running; }\n\n.rc-slider-tooltip-zoom-down-enter,\n.rc-slider-tooltip-zoom-down-appear {\n  -webkit-transform: scale(0, 0);\n  transform: scale(0, 0);\n  -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);\n  animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); }\n\n.rc-slider-tooltip-zoom-down-leave {\n  -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);\n  animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); }\n\n@-webkit-keyframes rcSliderTooltipZoomDownIn {\n  0% {\n    opacity: 0;\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(0, 0);\n    transform: scale(0, 0); }\n  100% {\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(1, 1);\n    transform: scale(1, 1); } }\n\n@keyframes rcSliderTooltipZoomDownIn {\n  0% {\n    opacity: 0;\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(0, 0);\n    transform: scale(0, 0); }\n  100% {\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(1, 1);\n    transform: scale(1, 1); } }\n\n@-webkit-keyframes rcSliderTooltipZoomDownOut {\n  0% {\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(1, 1);\n    transform: scale(1, 1); }\n  100% {\n    opacity: 0;\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(0, 0);\n    transform: scale(0, 0); } }\n\n@keyframes rcSliderTooltipZoomDownOut {\n  0% {\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(1, 1);\n    transform: scale(1, 1); }\n  100% {\n    opacity: 0;\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(0, 0);\n    transform: scale(0, 0); } }\n\n.rc-slider-tooltip {\n  position: absolute;\n  left: -9999px;\n  top: -9999px;\n  visibility: visible;\n  box-sizing: border-box;\n  -webkit-tap-highlight-color: transparent; }\n\n.rc-slider-tooltip * {\n  box-sizing: border-box;\n  -webkit-tap-highlight-color: transparent; }\n\n.rc-slider-tooltip-hidden {\n  display: none; }\n\n.rc-slider-tooltip-placement-top {\n  padding: 4px 0 8px 0; }\n\n.rc-slider-tooltip-inner {\n  padding: 6px 2px;\n  min-width: 24px;\n  height: 24px;\n  font-size: 12px;\n  line-height: 1;\n  color: #fff;\n  text-align: center;\n  text-decoration: none;\n  background-color: #6c6c6c;\n  border-radius: 6px;\n  box-shadow: 0 0 4px #d9d9d9; }\n\n.rc-slider-tooltip-arrow {\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-color: transparent;\n  border-style: solid; }\n\n.rc-slider-tooltip-placement-top .rc-slider-tooltip-arrow {\n  bottom: 4px;\n  left: 50%;\n  margin-left: -4px;\n  border-width: 4px 4px 0;\n  border-top-color: #6c6c6c; }\n\nhtml, body {\n  margin: 0;\n  padding: 0; }\n\nhtml, body {\n  margin: 0; }\n\n.layout {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: auto;\n  grid-template-rows: 5vh 30vh 60vh 5vh;\n  grid-template-areas: \"a a a a a a\"\r \". . b . . .\"\r \" . . c c . . \"\r \" d d d d d d \"; }\n\n.nav {\n  background: red;\n  grid-area: a; }\n\n.chart {\n  display: flex;\n  grid-area: c; }\n\n.footer {\n  background: black;\n  grid-area: d; }\n", ""]);
+	exports.push([module.id, ".nav {\n  background: red;\n  grid-area: a; }\n\n.search {\n  grid-area: b;\n  margin-top: 100px; }\n  .search .ui.form .fields {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: row;\n    flex-direction: column;\n    margin: 0 -.5em 1em; }\n\n.rc-slider {\n  position: relative;\n  height: 14px;\n  padding: 5px 0;\n  width: 100%;\n  border-radius: 6px;\n  -ms-touch-action: none;\n  touch-action: none;\n  box-sizing: border-box;\n  -webkit-tap-highlight-color: transparent; }\n\n.rc-slider * {\n  box-sizing: border-box;\n  -webkit-tap-highlight-color: transparent; }\n\n.rc-slider-rail {\n  position: absolute;\n  width: 100%;\n  background-color: #e9e9e9;\n  height: 4px;\n  border-radius: 6px; }\n\n.rc-slider-track {\n  position: absolute;\n  left: 0;\n  height: 4px;\n  border-radius: 6px;\n  background-color: #abe2fb; }\n\n.rc-slider-handle {\n  position: absolute;\n  margin-left: -7px;\n  margin-top: -5px;\n  width: 14px;\n  height: 14px;\n  cursor: pointer;\n  cursor: -webkit-grab;\n  cursor: grab;\n  border-radius: 50%;\n  border: solid 2px #96dbfa;\n  background-color: #fff;\n  -ms-touch-action: pan-x;\n  touch-action: pan-x; }\n\n.rc-slider-handle:hover {\n  border-color: #57c5f7; }\n\n.rc-slider-handle:active {\n  border-color: #57c5f7;\n  box-shadow: 0 0 5px #57c5f7;\n  cursor: -webkit-grabbing;\n  cursor: grabbing; }\n\n.rc-slider-handle:focus {\n  border-color: #57c5f7;\n  box-shadow: 0 0 0 5px #96dbfa;\n  outline: none; }\n\n.rc-slider-mark {\n  position: absolute;\n  top: 18px;\n  left: 0;\n  width: 100%;\n  font-size: 12px; }\n\n.rc-slider-mark-text {\n  position: absolute;\n  display: inline-block;\n  vertical-align: middle;\n  text-align: center;\n  cursor: pointer;\n  color: #999; }\n\n.rc-slider-mark-text-active {\n  color: #666; }\n\n.rc-slider-step {\n  position: absolute;\n  width: 100%;\n  height: 4px;\n  background: transparent; }\n\n.rc-slider-dot {\n  position: absolute;\n  bottom: -2px;\n  margin-left: -4px;\n  width: 8px;\n  height: 8px;\n  border: 2px solid #e9e9e9;\n  background-color: #fff;\n  cursor: pointer;\n  border-radius: 50%;\n  vertical-align: middle; }\n\n.rc-slider-dot:first-child {\n  margin-left: -4px; }\n\n.rc-slider-dot:last-child {\n  margin-left: -4px; }\n\n.rc-slider-dot-active {\n  border-color: #96dbfa; }\n\n.rc-slider-disabled {\n  background-color: #e9e9e9; }\n\n.rc-slider-disabled .rc-slider-track {\n  background-color: #ccc; }\n\n.rc-slider-disabled .rc-slider-handle,\n.rc-slider-disabled .rc-slider-dot {\n  border-color: #ccc;\n  box-shadow: none;\n  background-color: #fff;\n  cursor: not-allowed; }\n\n.rc-slider-disabled .rc-slider-mark-text,\n.rc-slider-disabled .rc-slider-dot {\n  cursor: not-allowed !important; }\n\n.rc-slider-vertical {\n  width: 14px;\n  height: 100%;\n  padding: 0 5px; }\n\n.rc-slider-vertical .rc-slider-rail {\n  height: 100%;\n  width: 4px; }\n\n.rc-slider-vertical .rc-slider-track {\n  left: 5px;\n  bottom: 0;\n  width: 4px; }\n\n.rc-slider-vertical .rc-slider-handle {\n  margin-left: -5px;\n  margin-bottom: -7px;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y; }\n\n.rc-slider-vertical .rc-slider-mark {\n  top: 0;\n  left: 18px;\n  height: 100%; }\n\n.rc-slider-vertical .rc-slider-step {\n  height: 100%;\n  width: 4px; }\n\n.rc-slider-vertical .rc-slider-dot {\n  left: 2px;\n  margin-bottom: -4px; }\n\n.rc-slider-vertical .rc-slider-dot:first-child {\n  margin-bottom: -4px; }\n\n.rc-slider-vertical .rc-slider-dot:last-child {\n  margin-bottom: -4px; }\n\n.rc-slider-tooltip-zoom-down-enter,\n.rc-slider-tooltip-zoom-down-appear {\n  -webkit-animation-duration: .3s;\n  animation-duration: .3s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n  display: block !important;\n  -webkit-animation-play-state: paused;\n  animation-play-state: paused; }\n\n.rc-slider-tooltip-zoom-down-leave {\n  -webkit-animation-duration: .3s;\n  animation-duration: .3s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n  display: block !important;\n  -webkit-animation-play-state: paused;\n  animation-play-state: paused; }\n\n.rc-slider-tooltip-zoom-down-enter.rc-slider-tooltip-zoom-down-enter-active,\n.rc-slider-tooltip-zoom-down-appear.rc-slider-tooltip-zoom-down-appear-active {\n  -webkit-animation-name: rcSliderTooltipZoomDownIn;\n  animation-name: rcSliderTooltipZoomDownIn;\n  -webkit-animation-play-state: running;\n  animation-play-state: running; }\n\n.rc-slider-tooltip-zoom-down-leave.rc-slider-tooltip-zoom-down-leave-active {\n  -webkit-animation-name: rcSliderTooltipZoomDownOut;\n  animation-name: rcSliderTooltipZoomDownOut;\n  -webkit-animation-play-state: running;\n  animation-play-state: running; }\n\n.rc-slider-tooltip-zoom-down-enter,\n.rc-slider-tooltip-zoom-down-appear {\n  -webkit-transform: scale(0, 0);\n  transform: scale(0, 0);\n  -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);\n  animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); }\n\n.rc-slider-tooltip-zoom-down-leave {\n  -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);\n  animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); }\n\n@-webkit-keyframes rcSliderTooltipZoomDownIn {\n  0% {\n    opacity: 0;\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(0, 0);\n    transform: scale(0, 0); }\n  100% {\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(1, 1);\n    transform: scale(1, 1); } }\n\n@keyframes rcSliderTooltipZoomDownIn {\n  0% {\n    opacity: 0;\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(0, 0);\n    transform: scale(0, 0); }\n  100% {\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(1, 1);\n    transform: scale(1, 1); } }\n\n@-webkit-keyframes rcSliderTooltipZoomDownOut {\n  0% {\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(1, 1);\n    transform: scale(1, 1); }\n  100% {\n    opacity: 0;\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(0, 0);\n    transform: scale(0, 0); } }\n\n@keyframes rcSliderTooltipZoomDownOut {\n  0% {\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(1, 1);\n    transform: scale(1, 1); }\n  100% {\n    opacity: 0;\n    -webkit-transform-origin: 50% 100%;\n    transform-origin: 50% 100%;\n    -webkit-transform: scale(0, 0);\n    transform: scale(0, 0); } }\n\n.rc-slider-tooltip {\n  position: absolute;\n  left: -9999px;\n  top: -9999px;\n  visibility: visible;\n  box-sizing: border-box;\n  -webkit-tap-highlight-color: transparent; }\n\n.rc-slider-tooltip * {\n  box-sizing: border-box;\n  -webkit-tap-highlight-color: transparent; }\n\n.rc-slider-tooltip-hidden {\n  display: none; }\n\n.rc-slider-tooltip-placement-top {\n  padding: 4px 0 8px 0; }\n\n.rc-slider-tooltip-inner {\n  padding: 6px 2px;\n  min-width: 24px;\n  height: 24px;\n  font-size: 12px;\n  line-height: 1;\n  color: #fff;\n  text-align: center;\n  text-decoration: none;\n  background-color: #6c6c6c;\n  border-radius: 6px;\n  box-shadow: 0 0 4px #d9d9d9; }\n\n.rc-slider-tooltip-arrow {\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-color: transparent;\n  border-style: solid; }\n\n.rc-slider-tooltip-placement-top .rc-slider-tooltip-arrow {\n  bottom: 4px;\n  left: 50%;\n  margin-left: -4px;\n  border-width: 4px 4px 0;\n  border-top-color: #6c6c6c; }\n\nhtml, body {\n  margin: 0;\n  padding: 0; }\n\nhtml, body {\n  margin: 0; }\n\n.layout {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: auto;\n  grid-template-rows: 10vh 30vh 60vh;\n  grid-template-areas: \"a a a a a a\"\r \". . b . . .\"\r \" . . c c c . \"\r \". . d . . .\"; }\n\n.nav {\n  background: red;\n  grid-area: a; }\n\n.footer {\n  background: black;\n  grid-area: d; }\n\n.admin {\n  grid-area: d; }\n", ""]);
 	
 	// exports
 
@@ -26862,6 +26862,10 @@
 	
 	var _GetGift2 = _interopRequireDefault(_GetGift);
 	
+	var _Admin = __webpack_require__(/*! ./Admin */ 923);
+	
+	var _Admin2 = _interopRequireDefault(_Admin);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -26894,18 +26898,12 @@
 	                },
 	                body: data
 	
-	            }).then(function (res) {
-	                return res.json();
-	            }).then(function (data) {
-	                _this.setState({
-	                    giftData: data
-	
-	                });
 	            });
 	        };
 	
 	        _this.state = {
-	            giftData: {}
+	            giftData: "",
+	            rend: false
 	
 	        };
 	
@@ -26920,23 +26918,27 @@
 	            fetch('https://snappyser.herokuapp.com/api', {}).then(function (res) {
 	                return res.json();
 	            }).then(function (data) {
+	
 	                _this2.setState({
 	                    giftData: data
 	
 	                });
+	                console.log(data);
 	            });
 	        }
 	    }, {
 	        key: 'render',
 	        value: function render() {
-	            var giftData = this.state.giftData;
+	            var _state = this.state,
+	                giftData = _state.giftData,
+	                rend = _state.rend;
 	
-	
+	            console.log(giftData);
 	            return _react2.default.createElement(
 	                'div',
 	                { className: 'layout' },
 	                _react2.default.createElement(_GetGift2.default, { sendData: this.sendData }),
-	                _react2.default.createElement(Admin, { giftData: giftData })
+	                _react2.default.createElement(_Admin2.default, { giftData: giftData })
 	            );
 	        }
 	    }]);
@@ -70680,6 +70682,172 @@
 	
 	exports.default = StatisticValue;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../process/browser.js */ 4)))
+
+/***/ }),
+/* 923 */
+/*!*************************************!*\
+  !*** ./src/app/components/Admin.js ***!
+  \*************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 2);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _semanticUiReact = __webpack_require__(/*! semantic-ui-react */ 239);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // lib
+	
+	
+	// components
+	
+	
+	// other
+	
+	var Admin = function (_React$Component) {
+	    _inherits(Admin, _React$Component);
+	
+	    function Admin() {
+	        _classCallCheck(this, Admin);
+	
+	        return _possibleConstructorReturn(this, (Admin.__proto__ || Object.getPrototypeOf(Admin)).apply(this, arguments));
+	    }
+	
+	    _createClass(Admin, [{
+	        key: 'render',
+	        value: function render() {
+	            var data = this.props.giftData;
+	            if (data) {
+	                console.log(data);
+	                return _react2.default.createElement(
+	                    'div',
+	                    { className: 'admin' },
+	                    _react2.default.createElement(
+	                        'h4',
+	                        null,
+	                        'Admin'
+	                    ),
+	                    _react2.default.createElement(
+	                        _semanticUiReact.Table,
+	                        { singleLine: true },
+	                        _react2.default.createElement(
+	                            _semanticUiReact.Table.Header,
+	                            null,
+	                            _react2.default.createElement(
+	                                _semanticUiReact.Table.Row,
+	                                null,
+	                                _react2.default.createElement(
+	                                    _semanticUiReact.Table.HeaderCell,
+	                                    null,
+	                                    'first Name'
+	                                ),
+	                                _react2.default.createElement(
+	                                    _semanticUiReact.Table.HeaderCell,
+	                                    null,
+	                                    'last Name'
+	                                ),
+	                                _react2.default.createElement(
+	                                    _semanticUiReact.Table.HeaderCell,
+	                                    null,
+	                                    'city'
+	                                ),
+	                                _react2.default.createElement(
+	                                    _semanticUiReact.Table.HeaderCell,
+	                                    null,
+	                                    'street and number '
+	                                ),
+	                                _react2.default.createElement(
+	                                    _semanticUiReact.Table.HeaderCell,
+	                                    null,
+	                                    'email'
+	                                ),
+	                                _react2.default.createElement(
+	                                    _semanticUiReact.Table.HeaderCell,
+	                                    null,
+	                                    'phoneNumber'
+	                                ),
+	                                _react2.default.createElement(
+	                                    _semanticUiReact.Table.HeaderCell,
+	                                    null,
+	                                    'zipCode'
+	                                )
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            _semanticUiReact.Table.Body,
+	                            null,
+	                            data.map(function (data, key) {
+	                                return _react2.default.createElement(
+	                                    _semanticUiReact.Table.Row,
+	                                    { key: key },
+	                                    _react2.default.createElement(
+	                                        _semanticUiReact.Table.Cell,
+	                                        null,
+	                                        data.firstName
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        _semanticUiReact.Table.Cell,
+	                                        null,
+	                                        data.lastName
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        _semanticUiReact.Table.Cell,
+	                                        null,
+	                                        data.city
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        _semanticUiReact.Table.Cell,
+	                                        null,
+	                                        data.street
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        _semanticUiReact.Table.Cell,
+	                                        null,
+	                                        data.email
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        _semanticUiReact.Table.Cell,
+	                                        null,
+	                                        data.phoneNumber
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        _semanticUiReact.Table.Cell,
+	                                        null,
+	                                        data.zipCode
+	                                    )
+	                                );
+	                            })
+	                        )
+	                    )
+	                );
+	            } else {
+	                return _react2.default.createElement(
+	                    'div',
+	                    null,
+	                    'sdss'
+	                );
+	            }
+	        }
+	    }]);
+	
+	    return Admin;
+	}(_react2.default.Component);
+	
+	exports.default = Admin;
 
 /***/ })
 /******/ ]);
