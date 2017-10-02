@@ -1,0 +1,55 @@
+// @import 'some';
+@import 'nav';
+@import 'search';
+@import '../../../node_modules/semantic-ui-css/semantic.min.css';
+@import 'slidebar';
+
+html,body {
+margin: 0;
+padding: 0
+
+}
+
+html,body{
+    margin: 0;
+    
+  }
+  
+  .layout {
+  display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto;
+    grid-template-rows: 5vh 30vh 60vh 5vh;
+     grid-template-areas: 
+    "a a a a a a"
+     ". . b . . ."
+       " . . c c . . "
+           " d d d d d d "
+    
+   
+  }
+  
+  
+  .nav{
+    background: red;
+  
+    grid-area:a
+   
+  
+    
+  }
+
+  .chart{
+display: flex;
+      grid-area:c;
+  }
+   
+  
+  .footer{
+  
+    background: black;
+    grid-area:d;
+    
+  }
+  
+
